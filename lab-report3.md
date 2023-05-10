@@ -1,4 +1,4 @@
->
+
 **Name:Chaklam Ng**
 >
 **Professor Joe**
@@ -13,6 +13,7 @@ ___
 [Geekforgeek Researching website for command grep](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 The command that I chose to research on is `grep` which refering to geeksforgeek's definition,grep is a filter that searches a file for a given particular pattern of characters and return all lines that matches the pattern.
 There are some expansions on how to use grep command for searching more options. The first option that I used is `grep -c`. The following screenshot is the actual output that I got from searching on a file from `./techinal` directory.
+
 ## grep -c
 ![ex1](ex1.png)
 ```

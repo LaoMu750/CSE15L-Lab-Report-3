@@ -152,7 +152,7 @@ find the lines that match the pattern easily and faster to locate the line numbe
 
 ## grep -w
 `grep -w` is the command that will only return the lines that exactly match the given pattern which litearlly means words are same as the pattern and pattern are not just a substring of the words.
-### Example:
+### Example1:
 ```
 [cs15lsp23ok@ieng6-202]:911report:138$ grep -w "men" chapter-1.txt
     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.
@@ -162,7 +162,8 @@ find the lines that match the pattern easily and faster to locate the line numbe
     The four men boarded the plane between 7:39 and 7:48. All four had seats in the first-class cabin; their plane had no business-class section. Jarrah was in seat 1B, closest to the cockpit; Nami was in 3C, Ghamdi in 3D, and Haznawi in 6B.
     The 19 men were aboard four transcontinental flights.
  ```
- ### Example:
+ >
+ ### Example2:
  ```
  [cs15lsp23ok@ieng6-202]:911report:140$ grep -w "me" chapter-1.txt 
     SecDef: OK, let me ask the question here. Has that directive been transmitted to the aircraft?

@@ -6,7 +6,6 @@
 **CSE 15L**
 
 **05/10/2023**
-___
 # Lab Report 3
 ___
 # Research Commands
@@ -167,6 +166,7 @@ find the lines that match the pattern easily and faster to locate the line numbe
  ```
  `grep -w "men" chapter-1.txt` and `grep -w "me" chapter-1.txt` are the commands that I used on each example. However, "me" is a substring of "men" but it will not return any lines that matched "men" only since we used `grep -w` command to find the exact pattern matching lines.
  This command is useful because we can find all lines that has exactly pattern matching but not substrings.
+ >
  ___
  Thank you for taking time to review my lab report-3
  

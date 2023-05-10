@@ -162,7 +162,6 @@ find the lines that match the pattern easily and faster to locate the line numbe
     The four men boarded the plane between 7:39 and 7:48. All four had seats in the first-class cabin; their plane had no business-class section. Jarrah was in seat 1B, closest to the cockpit; Nami was in 3C, Ghamdi in 3D, and Haznawi in 6B.
     The 19 men were aboard four transcontinental flights.
  ```
- >
  ### Example2:
  ```
  [cs15lsp23ok@ieng6-202]:911report:140$ grep -w "me" chapter-1.txt 

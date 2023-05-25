@@ -170,7 +170,7 @@ find the lines that match the pattern easily and faster to locate the line numbe
 
 ## grep -o
 `grep -o` is the command that displaying the only matched pattern. 
-`
+```
 [cs15lsp23ok@ieng6-202]:911report:185$ grep -o "men" chapter-1.txt
 men
 men
@@ -239,8 +239,8 @@ men
 men
 men
 men
-`
-`
+```
+```
 [cs15lsp23ok@ieng6-202]:911report:186$ grep -o "men" chapter-2.txt
 men
 men
@@ -347,7 +347,7 @@ men
 men
 men
 men
-`
+```
 `grep -o "men" chapter-1.txt` and `grep -o "men" chapter-2.txt` are the two commands that I have tried for this part. This command is useful because we can find out how many exact lines of the exact parttern will appear in the text file.
  ___
  Thank you for taking time to review my lab report-3
